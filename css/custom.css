@@ -1,0 +1,76 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+	padding: 40px 15%
+}
+.contact{
+	background-color: #202020;
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	align-items: center;
+	grid-gap: 40px
+}
+.contact-img img{
+	width: 620px;
+	height: auto;
+}
+.contact-form h1{
+	font-size: 80px;
+	font-weight: 600;
+	color: white;
+	margin-bottom: 20px;
+}
+span{
+	color: #F64668;
+}
+.contact-form p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 26px;
+	font-size: 18px;
+	margin-bottom: 40px
+}
+.contact-form form{
+	position: relative
+}
+.contact-form form input,form textarea{
+	width: 100%;
+	padding: 17px;
+	border: none;
+	outline: none;
+	background: #191919;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 10px;
+	border-radius: 10px
+}
+.contact-form textarea{
+	resize: none;
+}
+.btn-1{
+	display: inline-block;
+	background: #f64668;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border: 2px solid #f64668;
+	border-radius: 30px;
+	padding: 10px 25px;
+	transition-duration: .2s;
+	cursor: pointer;
+	text-decoration: none;
+	color: white
+}
+.btn-1:hover{
+	font-weight: 500;
+	background-color: transparent
+}
